@@ -4,12 +4,15 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        King.cpp \
         ChessBoard.cpp \
-        Piece.cpp \
-        Pion.cpp \
+        Rook.cpp \
         main.cpp
 
 HEADERS += \
+    King.h \ 
+    Rook.h
     ChessBoard.h \
     Pawn.h \
     Piece.h
+

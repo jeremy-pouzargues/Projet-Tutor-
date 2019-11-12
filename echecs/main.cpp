@@ -2,8 +2,6 @@
 #include "ChessBoard.h"
 using namespace std;
 
-
-
 int main()
 {
     Pawn Pawn1(blanc, pair<unsigned,unsigned> (1,1));
